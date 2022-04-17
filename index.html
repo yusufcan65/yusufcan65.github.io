@@ -1,41 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web sitesi</title>
-</head>
-<body>
-    <h2>yusuf</h2>
-    <a href="#">hakkımda</a>
-    <a href="#">derslerim</a>
-    <a href="#">kkk</a>
 
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                 <a href="#">LOGO</a>
-            </div>
-            <ul>
-                <li> <a href="#" class="active">anasayfa</a></li>
-                <li> <a href="#">hakkında</a></li>
-                <li> <a href="#">hizmetler</a></li>
-                <li> <a href="#">ürünler</a></li>
-                <li> <a href="#">iletişim</a></li>
-            </ul>
-        </div>
-            <div class="center">
-                <h1>Yazılım dünyasına</h1>
-                <H2>HOŞGELDİNİZ</H2>
-                <div class="buttons">
-                     <button>daha fazla</button>
-                     <button>yenilendi</button>
-                 </div>
-            </div>
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="alıntı.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+      
+        <title>benim profil sayfam</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">YUSUF</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Anasayfa</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Hakkında</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Beceriler</a></li>
+                       <li class="nav__item"><a href="#education" class="nav__link">Eğitim Bilgilerim</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+        <main class="l-main">
+<div id="hero">
+    <video autoplay loop muted>
+        <source src="videoplayback (2).mp4" type="video/mp4">
+   
+    </video>
+
+            <!--===== ANASAYFA =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Merhaba,<br>Ben <span class="home__title-color">Yusuf</span><br> Yazılım Mühendisliği 1.Sınıf Öğrencisiyim</h1>
         
-    </div>
-    
-    
-</body>
+                </div>
+               
+            </section>
+        </div>
+        </div>
+
+            <!--===== HAKKINDA =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Hakkında</h2>
+
+                <div class="about__container bd-grid">
+                  <div class="about__img">
+                        <img src="son resim.jpg">
+                    </div>
+                    
+                    <div class="about__tittle">
+                        <h2 class="about__subtitle">Ben Yusuf</h2>
+                        <p class="about__text">Lorem ipsum dolor,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tempore eaque accusantium dignissimos totam. Quam, nesciunt. sit amet consectetur adipisicing elit. Placeat laboriosam quam eligendi velit deleniti voluptatibus corrupti debitis eos corporis harum quas dolores, quisquam repellendus rerum aliquam impedit quis doloremque voluptatem quibusdam sequi sint hic? At dolores pariatur porro nostrum vitae similique temporibus alias excepturi provident repudiandae, ea quibusdam voluptatem vero! ipsum dolor sit amet consectetur adipisicing elit. Dicta, iusto? Sunt doloribus at autem nihil accusantium modi dicta, itaque, ipsam dolor, asperiores culpa harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel! Minus alias voluptatibus inventore temporibus.</p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== BECERİLER =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Becerilerim</h2>
+
+            </section>
+            <!--EĞİTİM BİLGİLERİM-->
+            <section class="education section" id="education">
+                <h2 class="section-title">Eğitim Bilgilerim</h2>
+
+      
+           </section>
+               <!--===== CONTACT =====-->
+               <section class="contact section" id="contact">
+           
+            </section>
+        </main>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Yusuf</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><a href="https://github.com"><i class='fab fa-github' ></i></a></a>
+                <a href="#" class="footer__icon"><a href="https://www.instagram.com"><i class='fab fa-instagram' ></i></a></a>
+                <a href="#" class="footer__icon"><a href="https://twitter.com"><i class='fab fa-twitter' ></i></a></a>
+            </div>
+
+        </footer>
+
+
+  
+    </body>
 </html>
